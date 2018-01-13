@@ -4,7 +4,7 @@
 
 <<<<<<< HEAD
 int random_int(int max) {
-    return 1;
+    return rand()*max / RAND_MAX;
 }
 
 =======
