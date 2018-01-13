@@ -14,6 +14,10 @@ void init_rand(void)
 >>>>>>> 88e5683ac0f2e93cd553f8c8c0d5191b75935dbd
 }
 
+void experiment() {
+    
+}
+
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         fprintf(stderr, "Usage: %s <number>\n", argv[0]);
