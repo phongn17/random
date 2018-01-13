@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-int random_int(int max)
-{
+
+int random_int(int max) {
     return rand() % max;
 }
 int main(int argc, char *argv[])
