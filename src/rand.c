@@ -1,14 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-<<<<<<< HEAD
-
-int random_int(int max) {
-=======
 #include <time.h>
-
-void init_rand(void) {
-    srand(time(NULL));
-}
 
 int main(int argc, char *argv[]) {
     if (argc != 2) {
