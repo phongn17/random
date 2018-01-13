@@ -4,7 +4,9 @@
 
 <<<<<<< HEAD
 int random_int(int max) {
-    
+    return 1;
+}
+
 =======
 void init_rand(void)
 {
