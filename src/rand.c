@@ -6,13 +6,6 @@ int random_int(int max) {
 =======
 #include <time.h>
 
-// TODO: use a better random generator
-int random_int(int max)
-{
->>>>>>> bc316a72be35bde1ca005b033b79fe6403e5cb33
-    return rand() % max;
-}
-
 void init_rand(void) {
     srand(time(NULL));
 }
