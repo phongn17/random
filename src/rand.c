@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+void init_rand(void)
+{
+    srand(time(NULL));
+}
+
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         fprintf(stderr, "Usage: %s <number>\n", argv[0]);
