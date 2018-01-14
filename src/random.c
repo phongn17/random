@@ -15,7 +15,7 @@ void init_rand(void)
 }
 
 void experiment() {
-    
+    return 1;;
 }
 
 int main(int argc, char *argv[]) {
